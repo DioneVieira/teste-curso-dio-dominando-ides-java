@@ -3,12 +3,13 @@ package br.com.dio.model;
 import java.util.Objects;
 
 public class Gato {
-	
+
 	private String nome;
 	private String cor;
 	private Integer idade;
 	
-	public Gato() {}
+	public Gato() {
+	}
 
 	public Gato(String nome, String cor, Integer idade) {
 		this.nome = nome;
@@ -62,13 +63,11 @@ public class Gato {
 		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
 	}
 	
-	
-	
-	/*public Gato (String nome; String cor, String idade) {
+	/*public Gato(String nome, String cor, Integer idade) {
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
 	}*/
-
+	
 	
 }
